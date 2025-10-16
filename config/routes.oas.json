@@ -22,7 +22,9 @@
             }
           },
           "policies": {
-            "inbound": []
+            "inbound": [
+              "rate-limit-inbound"
+            ]
           }
         },
         "operationId": "new-route-e236b28d"
